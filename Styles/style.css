@@ -1,0 +1,441 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background: url(../Multimedia/patron.jpg);
+  color: white;
+}
+
+/*inicio etiqueta INDEX
+inicio etiqueta INDEX
+inicio etiqueta INDEX
+inicio etiqueta INDEX
+inicio etiqueta INDEX*/
+
+.portada {
+  text-align: center;
+}
+
+.portada__imagen {
+  max-width: 1500px;
+  display: inline;
+  margin: 50px 0px 50px 0px;
+  border-radius: 20px;
+}
+
+.titulo {
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+}
+
+.tabla {
+  border-style: dashed;
+  border-color: white;
+  border-radius: 20px;
+  font-size: 36px;
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
+.tabla__texto {
+  text-align: center;
+}
+
+.tabla__img {
+  display: inline;
+  border-radius: 20px;
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
+#inicio {
+  display: inline;
+}
+
+#menu li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: yellow;
+  margin: 10px 10px 10px 30px;
+  padding: 1px 3px 0px 3px;
+  box-sizing: content-box;
+  border-style: ridge;
+  font-size: 20px;
+  color: black;
+}
+
+/* poniendo menu desplegable */
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  width: 15%;
+  position: relative;
+  font-size: 1rem;
+}
+
+ul ul {
+  position: relative;
+  display: none;
+}
+
+ul ul li {
+  display: block;
+  width: 200px;
+  padding: 10px;
+}
+
+ul ul li a {
+  color: black;
+}
+
+ul li:hover ul {
+  position: absolute;
+  display: block;
+  background-color: white;
+}
+
+.arriba {
+  position: fixed;
+  bottom: 0%;
+  left: 95%;
+}
+
+.hometitulo,
+.homeparrafo {
+  font-size: 32px;
+  border-style: solid;
+  border-color: white;
+  background-color: white;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*FIN DE ETIQUETA INDEX
+FIN DE ETIQUETA INDEX
+FIN DE ETIQUETA INDEX
+FIN DE ETIQUETA INDEX*/
+
+.container-grid {
+  display: grid;
+}
+
+li {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 450px);
+  max-width: 90%;
+}
+
+/*INICIO ETIQUETA NOSOTROS
+INICIO ETIQUETA NOSOTROS
+INICIO ETIQUETA NOSOTROS
+INICIO ETIQUETA NOSOTROS
+
+section {
+    text-align: center;
+}
+
+.video {
+    text-align: center;
+}
+
+#objetivo {
+    background: url(../Multimedia/imagen\ grande.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 32px;
+    text-align: justify;
+    border-style: dashed;
+    border-radius: 15px;
+    border-color: white;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin: 50px 0px 50px 0px;
+    padding: 10px 10px 10px 10px;
+}
+
+.objetivo__parrafo1 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.objetivo__parrafo2 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.objetivo__parrafo3 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.objetivo__titulo {
+    text-decoration: underline;
+}
+
+.nostitulo,
+.nosparrafo {
+    font-size: 32px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+FIN ETIQUETA NOSOTROS
+FIN ETIQUETA NOSOTROS
+FIN ETIQUETA NOSOTROS
+FIN ETIQUETA NOSOTROS
+FIN ETIQUETA NOSOTROS
+FIN ETIQUETA NOSOTROS*/
+
+/*INICIO ETIQUETA CONTACTO
+INICIO ETIQUETA CONTACTO
+INICIO ETIQUETA CONTACTO
+INICIO ETIQUETA CONTACTO*/
+
+.section {
+  margin: 50px 50px 50px 50px;
+}
+
+.formulario {
+  background: url(../Multimedia/imagen\ grande.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  border: none;
+  border-style: dashed;
+  border-color: white;
+  border-radius: 20px;
+  max-width: fit-content;
+  max-height: fit-content;
+  padding: 30px 15px 30px 15px;
+  margin: auto;
+}
+
+.form {
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+
+.formulario__titulo {
+  font-size: 36px;
+  padding: 25px 0px 25px 0px;
+}
+
+.formulario__info {
+  background: none;
+  display: block;
+  text-align: left;
+  font-size: 36px;
+  border: none;
+  border-style: none;
+  color: white;
+  width: 90%;
+  max-width: fit-content;
+  margin: 10px 10px 10px 10px;
+}
+
+.formulario__button {
+  margin: 10px 10px 10px 10px;
+}
+
+.red {
+  background: url(../Multimedia/imagen\ grande.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 20px;
+  border-color: white;
+  border-style: dashed;
+  display: inline-block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.red__titulo {
+  font-size: 32px;
+  text-decoration: underline;
+  margin: 0px 10px 10px 10px;
+  padding: 0px 15px 10px 15px;
+}
+
+.red__iconos {
+  display: inline;
+  position: relative;
+  width: 100%;
+  max-width: fit-content;
+  max-height: fit-content;
+  border-radius: 20px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+.red__img {
+  display: inline;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+.conttitulo,
+.contparrafo {
+  font-size: 32px;
+  border-style: solid;
+  border-color: white;
+  background-color: white;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*FIN ETIQUETA CONTACTO
+FIN ETIQUETA CONTACTO
+FIN ETIQUETA CONTACTO
+FIN ETIQUETA CONTACTO
+FIN ETIQUETA CONTACTO*/
+
+/*INICIO ETIQUETA PRODUCTOS
+INICIO ETIQUETA PRODUCTOS
+INICIO ETIQUETA PRODUCTOS
+INICIO ETIQUETA PRODUCTOS*/
+
+.prodtitulo,
+.prodparrafo {
+  font-size: 32px;
+  border-style: solid;
+  border-color: white;
+  background-color: white;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*FIN ETIQUETA PRODUCTOS
+FIN ETIQUETA PRODUCTOS
+FIN ETIQUETA PRODUCTOS
+FIN ETIQUETA PRODUCTOS*/
+
+/*INICIO ETIQUETA CATALOGO
+INICIO ETIQUETA CATALOGO
+INICIO ETIQUETA CATALOGO
+INICIO ETIQUETA CATALOGO*/
+
+.grid-conteiner {
+  display: grid;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  border: 1px solid black;
+  grid-template-areas: "logo logo logo" "menu menu menu" "imagen texto texto" "imagen texto texto" "imagen texto texto" "redes redes redes" "redesImg redesImg redesImg" "footer footer footer";
+  gap: 2em;
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+.grid-conteiner > div {
+  color: white;
+}
+
+.item1 {
+  grid-area: logo;
+  justify-content: left;
+}
+
+.item2 {
+  grid-area: menu;
+  text-align: center;
+}
+
+#menu li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: yellow;
+  margin: 10px 10px 10px 30px;
+  padding: 1px 3px 0px 3px;
+  box-sizing: content-box;
+  border-style: ridge;
+  font-size: 20px;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  width: 15%;
+  position: relative;
+  font-size: 1rem;
+}
+
+ul ul {
+  position: relative;
+  display: none;
+}
+
+ul ul li {
+  display: block;
+  width: 200px;
+  padding: 10px;
+}
+
+ul ul li a {
+  color: black;
+}
+
+ul li:hover ul {
+  position: absolute;
+  display: block;
+  background-color: white;
+}
+
+.imagen {
+  grid-area: imagen;
+}
+
+.imagen > div > img {
+  margin-bottom: 10px;
+}
+
+.descripcion {
+  grid-area: texto;
+}
+
+.descripcion > div {
+  height: 350px;
+}
+
+.redes {
+  grid-area: redes;
+  grid-column: 1/ 4;
+  text-align: center;
+}
+
+.redesImg {
+  grid-area: redesImg;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+.disclaimer {
+  grid-area: footer;
+  grid-column: 1 / 4;
+  text-align: left;
+  font-size: 12px;
+  margin-top: 20px;
+}
