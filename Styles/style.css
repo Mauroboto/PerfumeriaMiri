@@ -296,7 +296,7 @@ FIN ETIQUETA CONTACTO*/
     margin-bottom: 50px;
 }
 
-.grid-conteiner {
+.grid-container {
     display: grid;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.7);
@@ -309,7 +309,7 @@ FIN ETIQUETA CONTACTO*/
     margin: 0 auto;
 }
 
-.grid-conteiner>div {
+.grid-container>div {
     color: white;
 }
 
@@ -406,7 +406,7 @@ ul li:hover ul {
 }
 
 @media all and (max-width: 1200px) {
-    .grid-conteiner {
+    .grid-container {
         display: grid;
         background-color: rgba(0, 0, 0, 0);
         border-radius: none;
